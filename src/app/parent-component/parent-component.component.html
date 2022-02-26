@@ -1,5 +1,6 @@
 <div class="parent-component" style="border: 1px solid red; padding: 20px">
   <h1>Parent Component</h1>
   <p><b>Display message:</b> {{ message }}</p>
+  <p><b>View child message:</b> {{ viewChildMessage }}</p>
   <app-child-component [message]="message" (messageEvent)="recieveMessage($event)"></app-child-component>
 </div>

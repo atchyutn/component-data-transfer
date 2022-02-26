@@ -11,6 +11,8 @@ export class ChildComponentComponent implements OnInit {
 
   constructor() { }
 
+  viewChildMessage: string = "View child message from child";
+
   ngOnInit(): void {
   }
 
