@@ -12,4 +12,7 @@ export class ParentComponentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  recieveMessage($event: any) {
+    this.message = $event;
+  }
 }
