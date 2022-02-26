@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./parent-component.component.css']
 })
 export class ParentComponentComponent implements OnInit {
-
+  message: string = 'Hello from parent';
   constructor() { }
 
   ngOnInit(): void {

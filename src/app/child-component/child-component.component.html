@@ -1,3 +1,8 @@
 <div class="child-component" style="border: 1px solid black; padding: 20px;">
   <h2>Child Component</h2>
+
+  <input type="text" #input>
+  <button (click)="sendMessage(input.value)">Send Message</button>
+
+  <p><b>Display message:</b> {{ message }}</p>
 </div>
